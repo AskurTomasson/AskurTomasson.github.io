@@ -322,6 +322,7 @@ a:hover {
 }
 
 .black {
+    border-top: 1px solid black;
     width: 100%;
     background-color: #666666;
     color: #000000;
