@@ -1,0 +1,334 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    transition: all 0.3s linear;    
+}
+
+.headerimg {
+    width: 15rem;
+    min-width: 10rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 100%;
+    background-image: url(zip2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s;
+}
+
+.contacts {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 2.1em;
+    margin: 0;
+    font-weight: 1300;
+    text-shadow: 2px 2px black;
+}
+
+.yellowtext {
+    color: yellow;
+}
+
+.h2 {
+    margin: 0;
+    font-size: 1.3em;
+    text-shadow: 2px 2px black;
+}
+
+.info {
+    font-size: 1.2em;
+    text-shadow: 2px 2px black;
+}
+
+
+button {
+    min-width: 290px;
+    margin: 0 30px;
+    padding: 5px 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background: linear-gradient(
+        45deg, yellow 10%,
+         white
+     );
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: grab;
+    transform: scale(1.1);
+    transition: all .5s linear;
+    border: 2px solid grey;
+}
+
+
+.green {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(
+        45deg, white 90%,
+        yellow
+    );
+}
+
+.grid-wrapper {
+    display: flex;
+}
+
+.invandigt {
+    width: 100%;
+    height: 15em;
+    border: 1px solid white;
+    background-image: url(zip6.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+      background-image: url(zip13.jpeg);
+    }
+    33% {
+      background-image: url(zip13.jpeg);
+    }
+    66% {
+        background-image: url(zip6.jpeg);
+    }
+    100% {
+        background-image: url(zip18.jpeg);
+    }
+}
+
+.invandigt:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.utvandigt {
+    width: 100%;
+    height: 15em;
+    border: 1px solid white;
+    background-image: url(zip12.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate2 {
+    0% {
+        background-image: url(zip11.jpeg);
+    }
+
+    33% {
+        background-image: url(zip5.jpeg);
+    }
+
+    66% {
+        background-image: url(zip14.jpeg);
+    }
+
+    100% {
+        background-image: url(zip15.jpeg);
+    }
+}
+
+
+.utvandigt:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.referenser {
+    width: 100%;
+    height: 15em;
+    border: 1px solid white;
+    background-image: url(zip8.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate3 {
+    0% {
+        background-image: url(zip3.jpeg);
+    }
+
+    33% {
+        background-image: url(zip16.jpeg);
+    }
+
+    66% {
+        background-image: url(zip17.jpeg);
+    }
+
+    100% {
+        background-image: url(zip10.jpeg);
+    }
+}
+
+.referenser:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowg;
+    text-decoration: underline;
+    background-size: 110%;
+    animation: all 1s ease;
+}
+
+.produkter {
+    width: 100%;
+}
+
+.prod {
+    padding-left: 2vh;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg, transparent 1%,
+        yellow 5%,
+        transparent 35%,
+        transparent
+    );
+}
+
+
+.levbilder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.levrantor {
+    margin: 15px 15px;
+    width: 10rem;
+    height: 5rem;
+}
+
+.orange {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem ;
+    font-weight: 1000;
+}
+
+.lev {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 0;
+}
+
+.breaker {
+    margin-top: 0;
+    height: 5px;
+    width: 35vh;
+    background: linear-gradient(
+        45deg, white 50%,
+        yellow
+    );
+    border-radius: 50px;
+    border: 1px solid white;    
+}
+
+.breaker2 {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(
+        45deg, yellow,
+        white
+    );
+    border: 1px solid white;
+}
+
+.yellow {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus {
+    text-align: center;
+    width: 50vh;
+    color: black;
+}
+
+.black {
+    width: 100%;
+    background-color: #666666;
+    color: #000000;
+    height: 6rem;   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
