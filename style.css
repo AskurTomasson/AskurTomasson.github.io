@@ -43,7 +43,7 @@ body {
     font-size: 2.1em;
     margin: 0;
     font-weight: 1300;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .yellowtext {
@@ -58,7 +58,7 @@ body {
 
 .info {
     font-size: 1.2em;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
 
