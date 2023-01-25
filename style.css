@@ -66,9 +66,7 @@ button {
     min-width: 290px;
     margin: 0 30px;
     padding: 5px 10px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    text-stroke: 1px black;
+    color: black;
     background: linear-gradient(
         45deg, yellow 10%,
          white
@@ -248,8 +246,7 @@ a:hover {
 .prod {
     padding-left: 2vh;
     font-size: 1.3rem;
-    -webkit-text-stroke: 1px black;
-    text-stroke: 1px black;
+    text-shadow: 1px 1px black;
     font-weight: bold;
     background: linear-gradient(
         90deg, transparent 1%,
